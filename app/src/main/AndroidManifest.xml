@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.splashbvbbrasil"
+    package="com.example.bvb_brasil"
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="17" />
-
     <application
         android:allowBackup="true"
-        android:icon="@drawable/bvb face"
+        android:icon="@mipmap/bvbbrasilimg_round"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <!-- Splash screen -->
         <activity
-            android:name="com.example.splashbvbbrasil.SplashActivity"
+            android:name="com.example.bvb_brasil.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
@@ -28,8 +24,9 @@
 
         <!-- Activity Principal -->
         <activity
-            android:name="com.example.splashbvbbrasil.ActivityPrincipal"
+            android:name="com.example.bvb_brasil.ActivityPrincipal"
             android:label="@string/app_name" >
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 </manifest>

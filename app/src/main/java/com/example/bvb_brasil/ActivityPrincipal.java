@@ -1,4 +1,4 @@
-package com.example.splashbvbbrasil;
+package com.example.bvb_brasil;
 
 import android.app.Activity;
 import android.os.Bundle;
