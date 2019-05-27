@@ -17,7 +17,7 @@ public class ActivityPrincipal extends Activity {
 
             final EditText email = findViewById(R.id.txtEmail);
             final EditText senha = findViewById(R.id.txtPassword);
-            Button entrar = findViewById(R.id.btnLogin);
+            Button entrar = findViewById(R.id.btnLogin);//
 
             entrar.setOnClickListener(new View.OnClickListener() {
                 @Override
