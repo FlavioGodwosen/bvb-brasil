@@ -6,12 +6,12 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class BvBxMainsActivity extends Activity {
+public class HofeinheinxBvBActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bvbxmains);
+        setContentView(R.layout.activity_hoffenheinxbvb);
 
         ScrollView TelaTexto = findViewById(R.id.ScrollView);
         ImageView mains = findViewById(R.id.imageView);
@@ -19,3 +19,4 @@ public class BvBxMainsActivity extends Activity {
 
     }
 }
+

@@ -8,23 +8,78 @@ import android.widget.Button;
 
 public class ActivityPrincipal extends Activity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_principal);
 
-        Button entrar = findViewById(R.id.btnLogin);//
+        Button Bundesliga = (Button) findViewById(R.id.Bundeslig);
+        Button SuperCopa = (Button) findViewById(R.id.SuperCopa);
+        Button Pokal = (Button) findViewById(R.id.Pokal);
+        Button ChampionsL = (Button) findViewById(R.id.ChampionsL);
+        Button Encontros = (Button) findViewById(R.id.Encontros);
 
-        entrar.setOnClickListener(new View.OnClickListener() {
+        Bundesliga.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(ActivityPrincipal.this, MainActivity.class);
+                Intent intent = new Intent(ActivityPrincipal.this, BotoesActivity.class);
                 startActivity(intent);
 
 
             }
         });
+
+        ChampionsL.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(ActivityPrincipal.this, SplashChampionsActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+        SuperCopa.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(ActivityPrincipal.this, BotoesActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+        Pokal.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(ActivityPrincipal.this, BotoesActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+        Encontros.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(ActivityPrincipal.this, BotoesActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
     }
 }
 
