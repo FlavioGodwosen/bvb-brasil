@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bvb_brasil"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.bvbbr.bvb_brasil"
+    android:versionCode="3"
+    android:versionName="3.0">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/bvbbrasilimg_round"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+
         <!-- Splash screen -->
         <activity
-            android:name="com.example.bvb_brasil.SplashActivity"
+            android:name="com.bvbbr.bvb_brasil.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
@@ -24,28 +27,31 @@
 
         <!-- Activity Principal -->
         <activity
-            android:name="com.example.bvb_brasil.ActivityPrincipal"
-            android:label="@string/app_name" >
+            android:name="com.bvbbr.bvb_brasil.ActivityPrincipal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".BotoesActivity" />
-        <activity android:name=".BvBxAugsburgActivity" />
-        <activity android:name=".ColoniaxBvBActivity" />
-        <activity android:name=".FrankfurtxBvBActivity" />
-        <activity android:name=".BvBxWBremenActivity" />
-        <activity android:name=".FreiburgxBvBActivity" />
-        <activity android:name=".BvBxMonchengladbachActivity" />
-        <activity android:name=".ScheissexBvBActivity" />
-        <activity android:name=".BvBxWolfsburgActivity" />
-        <activity android:name=".BayernxBvBActivity" />
-        <activity android:name=".BvBxPaderbornActivity" />
-        <activity android:name=".HertaxBvBActivity" />
-        <activity android:name=".BvBxFortunaDActivity" />
-        <activity android:name=".MainsxBvBActivity" />
-        <activity android:name=".BvBxLeipzigActivity" />
-        <activity android:name=".HofeinheinxBvBActivity" />
-        <activity android:name=".BerlinxBvBActivity" />
-        <activity android:name=".BvBxBayerLActivity" />
-        <activity android:name=".ChampionsLActivity" />
-        <activity android:name=".SplashChampionsActivity" />
+        <activity android:name="com.bvbbr.bvb_brasil.BotoesActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.ChampionsLActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.EncontroActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.JogoSuperCupActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.PokalActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.SplashBundesligaActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.SplashChampionsActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.SplashEncontroActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.SplashPokalActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.SplashSuperCopa2Activity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.bvbbr.bvb_brasil.SplashSupercupActivity"
+                  android:screenOrientation="portrait"/>
     </application>
 </manifest>

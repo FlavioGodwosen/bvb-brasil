@@ -1,8 +1,9 @@
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAE202">
+    android:background="#FCE501">
 
     <ImageView
         android:id="@+id/bgImage"
@@ -18,7 +19,7 @@
         android:layout_marginTop="2dp"
         android:layout_marginRight="0dp"
         android:layout_marginBottom="415dp"
-        android:background="#FBE302"
+        android:background="#FCE501"
         android:src="@drawable/bvbface" />
 
 
@@ -30,29 +31,29 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="296dp"
-        android:background="#F1CB06"
+        android:background="#FCE501"
         android:gravity="center"
         android:onClick="Bundesliga"
         android:text="Bundesliga"
         android:textColor="#050505"
-        android:textColorHighlight="#F5F505"
+        android:textColorHighlight="#FCE501"
         android:textColorLink="#00F3E709"
         android:textCursorDrawable="@drawable/gradient_background" />
 
     <Button
         android:id="@+id/ChampionsL"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="149dp"
-        android:background="#030330"
+        android:background="@drawable/championsprincipal"
         android:gravity="center"
         android:onClick="ChampionsL"
         android:text="Champions"
         android:textColor="#F7F5F5"
-        android:textColorHighlight="#F5F505"
+        android:textColorHighlight="#FCE501"
         android:textColorLink="#00F3E709"
         android:textCursorDrawable="@drawable/gradient_background" />
 
@@ -64,12 +65,12 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="76dp"
-        android:background="#F1CB06"
+        android:background="#FCE501"
         android:gravity="center"
         android:onClick="SuperCopa"
         android:text="SuperCopa"
         android:textColor="#050505"
-        android:textColorHighlight="#F5F505"
+        android:textColorHighlight="#FCE501"
         android:textColorLink="#00F3E709"
         android:textCursorDrawable="@drawable/gradient_background" />
 
@@ -81,12 +82,12 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="219dp"
-        android:background="#F1CB06"
+        android:background="#FCE501"
         android:gravity="center"
         android:onClick="Pokal"
         android:text="Pokal"
         android:textColor="#050505"
-        android:textColorHighlight="#F5F505"
+        android:textColorHighlight="#FCE501"
         android:textColorLink="#00F3E709"
         android:textCursorDrawable="@drawable/gradient_background" />
 
@@ -98,13 +99,15 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="8dp"
-        android:background="#F1CB06"
+        android:background="#FCE501"
         android:gravity="center"
         android:onClick="Encontros"
-        android:text="Encontros"
+        android:text="Encontros/Redes Sociais"
         android:textColor="#050505"
-        android:textColorHighlight="#F5F505"
+        android:textColorHighlight="#FCE501"
         android:textColorLink="#00F3E709"
         android:textCursorDrawable="@drawable/gradient_background" />
 
+
 </RelativeLayout>
+

@@ -7,183 +7,198 @@
     android:orientation="vertical">
 
 
-    <TextView
-        android:id="@+id/Text"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="230dp"
         android:ems="10"
+        android:background="#FCE501"
         android:inputType="textPersonName"
-        android:text=" Jogos"
-        android:textAlignment="center"
-        android:textColor="#070707"
-        android:textStyle="bold" />
+        android:src="@drawable/bvbface"
+        android:textAlignment="center" />
 
     <ScrollView
         android:id="@+id/ScrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#0C0C0B"
-        android:text="BvB x Augsburg"
-        android:textAlignment="center"
-        android:textColor="#F0E602"
-        android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0C0C0B"
+                android:drawablePadding="70dp"
+                android:text="BvB x Augsburg "
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#F0E602"
+                android:background="#FCE501"
                 android:text="Colonia x BvB"
                 android:textAlignment="center"
                 android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#F30A0808"
-        android:text="U.Berlin x BvB"
-        android:textAlignment="center"
-        android:textColor="#F0E602" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F30A0808"
+                android:drawablePadding="70dp"
+                android:text="U.Berlin x BvB"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#EFE502"
-        android:text="BvB x Bayer L."
-        android:textAlignment="center"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="BvB x Bayer L."
+                android:textAlignment="center"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#0F0F0F"
-        android:text="Frankfurt x BvB"
-        android:textAlignment="center"
-        android:textColor="#EEE402"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F0F0F"
+                android:drawablePadding="70dp"
+                android:text="Frankfurt x BvB"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#EEE402"
-        android:text="BvB x W. Bremen"
-        android:textAlignment="center"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="BvB x W. Bremen"
+                android:textAlignment="center"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#0F0F0F"
-        android:text="Freiburg x BvB"
-        android:textAlignment="center"
-        android:textColor="#EDE302"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F0F0F"
+                android:drawablePadding="70dp"
+                android:text="Freiburg x BvB"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#EEE402"
-        android:text="BvB x B. Monchengladbach"
-        android:textAlignment="center"
-        android:textColor="#F7070707"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="BvB x B. Monchengladbach"
+                android:textAlignment="center"
+                android:textColor="#F7070707"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FA0A0A0A"
-        android:text=" Scheisse x BvB"
-        android:textAlignment="textStart"
-        android:textColor="#EDE302"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FA0A0A0A"
+                android:drawablePadding="70dp"
+                android:text=" Scheisse x BvB"
+                android:textAlignment="textStart"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#EDE302"
-        android:text="BvB x Wolfsburg"
-        android:textAlignment="center"
-        android:textColor="#FC0C0C0C"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="BvB x Wolfsburg"
+                android:textAlignment="center"
+                android:textColor="#FC0C0C0C"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#090908"
-        android:text="Byern M. x BvB"
-        android:textAlignment="center"
-        android:textColor="#EEE402"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#090908"
+                android:drawablePadding="70dp"
+                android:text="Byern M. x BvB"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ECE202"
-        android:text="BvB x Paderborn"
-        android:textAlignment="center"
-        android:textColor="#F5090808"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="BvB x Paderborn"
+                android:textAlignment="center"
+                android:textColor="#F5090808"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#0A0A0A"
-        android:text="Herta B. x BvB"
-        android:textAlignment="center"
-        android:textColor="#EDE302"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0A0A0A"
+                android:drawablePadding="70dp"
+                android:text="Herta B. x BvB"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#EBE102"
-        android:text="BvB x Fortuna D."
-        android:textAlignment="center"
-        android:textStyle="bold" />
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="BvB x Fortuna D."
+                android:textAlignment="center"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#0A0A0A"
-        android:text="Mains x BvB"
-        android:textColor="#EDE302"/>
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0A0A0A"
+                android:drawablePadding="70dp"
+                android:text="Mains x BvB"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#EBE102"
-        android:textColor="#F5090808"
-        android:textAlignment="center"
-        android:text="BvB x Leipzig" />
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#0A0A0A"
-        android:text="Hofenhein x BvB"
-        android:textColor="#EDE302"/>
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="BvB x Leipzig"
+                android:textAlignment="center"
+                android:textColor="#F5090808"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0A0A0A"
+                android:drawablePadding="70dp"
+                android:text="Hofenhein x BvB"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

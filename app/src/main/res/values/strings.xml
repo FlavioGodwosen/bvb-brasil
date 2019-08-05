@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SplashBvBBrasil</string>
+    <string name="app_name">BvBBrasil</string>
     <string name="Textojogo1">
 🏆BUNDESLIGA - 29° Rodada \
 🐝BVB x MAINZ \
@@ -39,4 +39,5 @@ Pré jogo:@joelbaluz\
 Imagem:@reenan1991\
 Briefing:andrevieira\
 </string>
+    <string name="texto">Seja bem-vindo ao Borussia Dortmund Brasil, a torcida oficial do BVB no Brasil! Criada em 2011, fundada em 12/08/13 e oficializada em 18/12/17 com objetivo de trazer nosso echte liebe pra perto dos fãs brasileiros.</string>
 </resources>
