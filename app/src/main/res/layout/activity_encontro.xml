@@ -10,14 +10,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FCE501">
+        android:background="#8E877F">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <ImageView
+            android:id="@+id/bgImage"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            android:layout_height="206dp"
+            android:background="#8F887F"
+            android:src="@drawable/oficializacao"
+            android:contentDescription="@string/todo11" />
 
 
         <Button
@@ -31,7 +32,7 @@
             android:layout_marginEnd="48dp"
             android:layout_marginBottom="17dp"
             android:background="#0A0A0A"
-            android:text="Facebook Offizieller Fanclub "
+            android:text="@string/facebook_offizieller_fanclub"
             android:textColor="#FCE501"
             android:textStyle="bold" />
 
@@ -46,7 +47,7 @@
             android:layout_marginEnd="48dp"
             android:layout_marginBottom="17dp"
             android:background="#0F0E00"
-            android:text="Local Encontro"
+            android:text="@string/local_encontro"
             android:textColor="#FCE501"
             android:textStyle="bold" />
 
@@ -61,7 +62,7 @@
             android:layout_marginEnd="48dp"
             android:layout_marginBottom="17dp"
             android:background="#0F0E00"
-            android:text="Faça parte do BvB Brasil"
+            android:text="@string/fa_a_parte_do_bvb_brasil"
             android:textColor="#FCE501" />
 
         <Button
@@ -75,7 +76,7 @@
             android:layout_marginEnd="48dp"
             android:layout_marginBottom="17dp"
             android:background="#0F0E00"
-            android:text="Twitter Offizieller Fanclub"
+            android:text="@string/twitter_offizieller_fanclub"
             android:textColor="#FCE501" />
 
         <Button
@@ -89,23 +90,22 @@
             android:layout_marginEnd="48dp"
             android:layout_marginBottom="17dp"
             android:background="#0F0E00"
-            android:text="Instagram Offizieller Fanclub"
+            android:text="@string/instagram_offizieller_fanclub"
             android:textColor="#FCE501" />
 
-        <WebView
-            android:id="@+id/webview"
-            android:layout_width="match_parent"
-            android:layout_height="382dp"
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_above="@+id/button19"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="0dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
             android:layout_marginBottom="17dp"
-            android:background="#FCE501" />
-
+            android:background="#0F0E00"
+            android:text="@string/youtube_offizieller_fanclub"
+            android:textColor="#FCE501" />
 
     </RelativeLayout>
 

@@ -10,17 +10,18 @@
             android:layout_height="200dp"
             android:layout_centerInParent="true"
             android:background="#FCE201"
-            android:src="@drawable/bvbzap" />
+            android:src="@drawable/bvbzap"
+            android:contentDescription="@string/todo7" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textSize="12dp"
-            android:textColor="#454545"
-            android:gravity="center_horizontal"
-            android:layout_alignParentBottom="true"
-            android:text="Borussia Dortmund Brasil" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#454545"
+        android:textSize="12sp"
+        android:text="Borussia Dortmund Brasil"/>
 
     </RelativeLayout>
 

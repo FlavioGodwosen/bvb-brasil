@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">BvBBrasil</string>
     <string name="Textojogo1">
 🏆BUNDESLIGA - 29° Rodada \
@@ -40,4 +40,61 @@ Imagem:@reenan1991\
 Briefing:andrevieira\
 </string>
     <string name="texto">Seja bem-vindo ao Borussia Dortmund Brasil, a torcida oficial do BVB no Brasil! Criada em 2011, fundada em 12/08/13 e oficializada em 18/12/17 com objetivo de trazer nosso echte liebe pra perto dos fãs brasileiros.</string>
+    <string name="facebook_offizieller_fanclub">Facebook Offizieller Fanclub</string>
+    <string name="local_encontro">Local Encontro</string>
+    <string name="fa_a_parte_do_bvb_brasil">Faça parte do BvB Brasil</string>
+    <string name="twitter_offizieller_fanclub">Twitter Offizieller Fanclub</string>
+    <string name="instagram_offizieller_fanclub">Instagram Offizieller Fanclub</string>
+    <string name="youtube_offizieller_fanclub">Youtube Offizieller Fanclub</string>
+    <string name="todo14">TODO14</string>
+    <string name="bvb_x_augsburg">BvB x Augsburg</string>
+    <string name="colonia_x_bvb">Colonia x BvB</string>
+    <string name="hofenhein_x_bvb">Hofenhein x BvB</string>
+    <string name="todo13">TODO13</string>
+    <string name="bvb_x_leipzig">BvB x Leipzig</string>
+    <string name="mains_x_bvb">Mains x BvB</string>
+    <string name="bvb_x_fortuna_d">BvB x Fortuna D.</string>
+    <string name="herta_b_x_bvb">Herta B. x BvB</string>
+    <string name="bvb_x_paderborn">BvB x Paderborn</string>
+    <string name="byern_m_x_bvb">Byern M. x BvB</string>
+    <string name="bvb_x_wolfsburg">BvB x Wolfsburg</string>
+    <string name="scheisse_x_bvb">Scheisse x BvB</string>
+    <string name="bvb_x_b_monchengladbach">BvB x B. Monchengladbach</string>
+    <string name="freiburg_x_bvb">Freiburg x BvB</string>
+    <string name="bvb_x_w_bremen">BvB x W. Bremen</string>
+    <string name="frankfurt_x_bvb">Frankfurt x BvB</string>
+    <string name="bvb_x_bayer_l">BvB x Bayer L.</string>
+    <string name="u_berlin_x_bvb">U.Berlin x BvB</string>
+    <string name="todo12">TODO12</string>
+    <string name="tabela_europeia">Tabela Europeia</string>
+    <string name="analise_dos_jogos">Analise dos Jogos</string>
+    <string name="todo11">TODO11</string>
+    <string name="campeonato_alem_o">Campeonato Alemão</string>
+    <string name="liga_europeia">Liga Europeia</string>
+    <string name="super_copa_da_alemanha">Super Copa da Alemanha</string>
+    <string name="copa_da_alemanha">Copa da Alemanha</string>
+    <string name="encontros_redes_sociais">Encontros/Redes Sociais</string>
+    <string name="todo10">TODO10</string>
+    <string name="tabela_copa_da_alemanha">Tabela Copa da Alemanha</string>
+    <string name="analise_jogos">Analise Jogos</string>
+    <string name="todo9">TODO9</string>
+    <string name="analise_instagram">Analise Instagram</string>
+    <string name="final_super_copa_da_alemanha">Final Super Copa da Alemanha</string>
+    <string name="todo8">TODO8</string>
+    <string name="borussia_dortmund_brasil6">Borussia Dortmund Brasil</string>
+    <string name="todo7">TODO7</string>
+    <string name="borussia_dortmund_brasil5">Borussia Dortmund Brasil</string>
+    <string name="todo6">TODO6</string>
+    <string name="borussia_dortmund_brasil4">Borussia Dortmund Brasil</string>
+    <string name="todo5">TODO5</string>
+    <string name="todo4">TODO4</string>
+    <string name="borussia_dortmund_brasil3">Borussia Dortmund Brasil</string>
+    <string name="todo3">TODO3</string>
+    <string name="borussia_dortmund_brasil2">Borussia Dortmund Brasil</string>
+    <string name="todo2">TODO2</string>
+    <string name="borussia_dortmund_brasil1">Borussia Dortmund Brasil</string>
+    <string name="todo1">TODO1</string>
+    <string name="analise_do_jogo">Analise do jogo</string>
+    <string name="todo16" />
+    <string name="todo15" />
 </resources>

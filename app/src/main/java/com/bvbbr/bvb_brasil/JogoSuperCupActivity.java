@@ -24,7 +24,7 @@ public class JogoSuperCupActivity extends Activity {
             @Override
             public void onClick(View view) {
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/B0g04JdB9vt/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/B06m9MIBCYH/"));
 
                 startActivity(browserIntent);
 

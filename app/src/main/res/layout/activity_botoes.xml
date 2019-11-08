@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,12 +11,14 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:ems="10"
+        android:layout_height="224dp"
         android:background="#FCE501"
+        android:contentDescription="@string/todo14"
+        android:ems="10"
         android:inputType="textPersonName"
         android:src="@drawable/bvbface"
         android:textAlignment="center" />
+
 
     <ScrollView
         android:id="@+id/ScrollView"
@@ -33,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:background="#0C0C0B"
                 android:drawablePadding="70dp"
-                android:text="BvB x Augsburg "
+                android:text="@string/bvb_x_augsburg"
                 android:textAlignment="center"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
@@ -43,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FCE501"
-                android:text="Colonia x BvB"
+                android:text="@string/colonia_x_bvb"
                 android:textAlignment="center"
                 android:textStyle="bold" />
 
@@ -53,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:background="#F30A0808"
                 android:drawablePadding="70dp"
-                android:text="U.Berlin x BvB"
+                android:text="@string/u_berlin_x_bvb"
                 android:textAlignment="center"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
@@ -63,7 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FCE501"
-                android:text="BvB x Bayer L."
+                android:text="@string/bvb_x_bayer_l"
                 android:textAlignment="center"
                 android:textStyle="bold" />
 
@@ -73,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:background="#0F0F0F"
                 android:drawablePadding="70dp"
-                android:text="Frankfurt x BvB"
+                android:text="@string/frankfurt_x_bvb"
                 android:textAlignment="center"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
@@ -83,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FCE501"
-                android:text="BvB x W. Bremen"
+                android:text="@string/bvb_x_w_bremen"
                 android:textAlignment="center"
                 android:textStyle="bold" />
 
@@ -93,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:background="#0F0F0F"
                 android:drawablePadding="70dp"
-                android:text="Freiburg x BvB"
+                android:text="@string/freiburg_x_bvb"
                 android:textAlignment="center"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
@@ -103,7 +106,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FCE501"
-                android:text="BvB x B. Monchengladbach"
+                android:text="@string/bvb_x_b_monchengladbach"
                 android:textAlignment="center"
                 android:textColor="#F7070707"
                 android:textStyle="bold" />
@@ -114,7 +117,7 @@
                 android:layout_height="wrap_content"
                 android:background="#FA0A0A0A"
                 android:drawablePadding="70dp"
-                android:text=" Scheisse x BvB"
+                android:text="@string/scheisse_x_bvb"
                 android:textAlignment="textStart"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
@@ -124,7 +127,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FCE501"
-                android:text="BvB x Wolfsburg"
+                android:text="@string/bvb_x_wolfsburg"
                 android:textAlignment="center"
                 android:textColor="#FC0C0C0C"
                 android:textStyle="bold" />
@@ -135,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:background="#090908"
                 android:drawablePadding="70dp"
-                android:text="Byern M. x BvB"
+                android:text="@string/byern_m_x_bvb"
                 android:textAlignment="center"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
@@ -145,7 +148,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FCE501"
-                android:text="BvB x Paderborn"
+                android:text="@string/bvb_x_paderborn"
                 android:textAlignment="center"
                 android:textColor="#F5090808"
                 android:textStyle="bold" />
@@ -156,7 +159,7 @@
                 android:layout_height="wrap_content"
                 android:background="#0A0A0A"
                 android:drawablePadding="70dp"
-                android:text="Herta B. x BvB"
+                android:text="@string/herta_b_x_bvb"
                 android:textAlignment="center"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
@@ -166,7 +169,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FCE501"
-                android:text="BvB x Fortuna D."
+                android:text="@string/bvb_x_fortuna_d"
                 android:textAlignment="center"
                 android:textStyle="bold" />
 
@@ -176,7 +179,7 @@
                 android:layout_height="wrap_content"
                 android:background="#0A0A0A"
                 android:drawablePadding="70dp"
-                android:text="Mains x BvB"
+                android:text="@string/mains_x_bvb"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
 
@@ -185,7 +188,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FCE501"
-                android:text="BvB x Leipzig"
+                android:text="@string/bvb_x_leipzig"
                 android:textAlignment="center"
                 android:textColor="#F5090808"
                 android:textStyle="bold" />
@@ -196,7 +199,7 @@
                 android:layout_height="wrap_content"
                 android:background="#0A0A0A"
                 android:drawablePadding="70dp"
-                android:text="Hofenhein x BvB"
+                android:text="@string/hofenhein_x_bvb"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
 

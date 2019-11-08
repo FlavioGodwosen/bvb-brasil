@@ -12,23 +12,6 @@
         android:background="#030330">
 
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="match_parent"
-            android:layout_height="314dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="0dp"
-            android:layout_marginBottom="415dp"
-            android:background="#030330"
-            android:src="@drawable/championsprincipal" />
-
         <Button
             android:id="@+id/button18"
             android:layout_width="match_parent"
@@ -40,7 +23,7 @@
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="119dp"
             android:background="#052557"
-            android:text="Tabela Champions"
+            android:text="@string/tabela_europeia"
             android:textColor="#D9DBDB"
             android:textStyle="bold" />
 
@@ -48,16 +31,26 @@
             android:id="@+id/button19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/button18"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="-2dp"
             android:layout_marginEnd="0dp"
-            android:layout_marginBottom="209dp"
+            android:layout_marginBottom="43dp"
             android:background="#052557"
-            android:text="Analise dos Jogos"
+            android:text="@string/analise_dos_jogos"
             android:textColor="#D9DBDB"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="303dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-3dp"
+            android:background="#030330"
+            android:src="@drawable/ligadaeuropa"
+            android:contentDescription="@string/todo12" />
     </RelativeLayout>
 
 </LinearLayout>

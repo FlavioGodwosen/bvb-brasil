@@ -37,7 +37,7 @@ public class ChampionsLActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/Bt08qovHDCD/?utm_source=ig_web_copy_link"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/B1xT4PQhj2I/"));
 
                 startActivity(browserIntent);
 

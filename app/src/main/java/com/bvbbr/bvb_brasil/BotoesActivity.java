@@ -40,7 +40,7 @@ public class BotoesActivity extends Activity {
             @Override
             public void onClick (View view) {
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/BolkYCDhw3l/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/B1Q79vqhQ92/"));
 
                 startActivity(browserIntent);
 
@@ -52,7 +52,7 @@ public class BotoesActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/Be0xD4eFjG_/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/B1g3FMjBz89/"));
 
                 startActivity(browserIntent);
             }
@@ -62,7 +62,7 @@ public class BotoesActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/BpmhchgAQvU/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/B1zysSlBiuC/"));
 
                 startActivity(browserIntent);
 
@@ -74,7 +74,7 @@ public class BotoesActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/Bh1CKU6HsGg/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/B2Yd1YZhpA1/"));
 
                 startActivity(browserIntent);
 
@@ -86,7 +86,7 @@ public class BotoesActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/BtX1nEUB5nY/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/p/B2twsYRhaF3/"));
 
                 startActivity(browserIntent);
 

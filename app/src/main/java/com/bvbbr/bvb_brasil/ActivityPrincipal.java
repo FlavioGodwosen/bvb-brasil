@@ -5,14 +5,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
+import android.widget.ImageView;
 
 public class ActivityPrincipal extends Activity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
+
+        HorizontalScrollView Banners = findViewById(R.id.ScrollView1);
+        final ImageView Banners1 = findViewById(R.id.bgImage4);
+        final ImageView Banners2 = findViewById(R.id.bgImage1);
+        //final ImageView Banners3 = findViewById(R.id.bgImage2);
+        //ImageView.setMovementMethod(new ScrollingMovementMethod());
+
 
         Button Bundesliga = (Button) findViewById(R.id.Bundeslig);
         Button SuperCopa = (Button) findViewById(R.id.SuperCopa);
@@ -25,7 +33,7 @@ public class ActivityPrincipal extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(ActivityPrincipal.this, SplashBundesligaActivity.class);
+                Intent intent = new Intent(ActivityPrincipal.this, BotoesActivity.class);
                 startActivity(intent);
 
 
@@ -37,7 +45,7 @@ public class ActivityPrincipal extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(ActivityPrincipal.this, SplashChampionsActivity.class);
+                Intent intent = new Intent(ActivityPrincipal.this, ChampionsLActivity.class);
                 startActivity(intent);
 
 
@@ -49,7 +57,7 @@ public class ActivityPrincipal extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(ActivityPrincipal.this, SplashSupercupActivity.class);
+                Intent intent = new Intent(ActivityPrincipal.this, JogoSuperCupActivity.class);
                 startActivity(intent);
 
 
@@ -61,7 +69,7 @@ public class ActivityPrincipal extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(ActivityPrincipal.this, SplashPokalActivity.class);
+                Intent intent = new Intent(ActivityPrincipal.this, PokalActivity.class);
                 startActivity(intent);
 
 
@@ -73,7 +81,7 @@ public class ActivityPrincipal extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(ActivityPrincipal.this, SplashEncontroActivity.class);
+                Intent intent = new Intent(ActivityPrincipal.this, EncontroActivity.class);
                 startActivity(intent);
 
 
