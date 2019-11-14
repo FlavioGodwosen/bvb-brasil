@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "408889702548",
+    "firebase_url": "https://borussia-dortmund-brasil.firebaseio.com",
+    "project_id": "borussia-dortmund-brasil",
+    "storage_bucket": "borussia-dortmund-brasil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408889702548:android:1e63226c487202f4",
+        "android_client_info": {
+          "package_name": "com.bvbbr.bvb_brasil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408889702548-jl7h22ct8f92q4fhobsnr7pfd7hscgui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bvbbr.bvb_brasil",
+            "certificate_hash": "ea66d7ddad101af21c19fa236d690dac1fa9d389"
+          }
+        },
+        {
+          "client_id": "408889702548-dshlv0q3d593uigdb82fsknm6sa5fh9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bvbbr.bvb_brasil",
+            "certificate_hash": "5ccbd811fda99129a73710be34539e899c3c2bd0"
+          }
+        },
+        {
+          "client_id": "408889702548-jh66e7e8j0gqgfuqg3d7gojrsqdcmkb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqMOjOyrvIVwL8lqcyaa3Pie8NxFyPuY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408889702548-jh66e7e8j0gqgfuqg3d7gojrsqdcmkb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
