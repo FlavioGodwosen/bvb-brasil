@@ -49,18 +49,18 @@ public class ActivityPrincipal extends Activity {
             }
         });
 
-        HorizontalScrollView Banners = findViewById(R.id.ScrollView1);
-        final ImageView Banners1 = findViewById(R.id.bgImage4);
-        final ImageView Banners2 = findViewById(R.id.bgImage1);
+        HorizontalScrollView Banners = this.findViewById(R.id.ScrollView1);
+        final ImageView Banners1 = this.findViewById(R.id.bgImage4);
+        final ImageView Banners2 = this.findViewById(R.id.bgImage1);
         //final ImageView Banners3 = findViewById(R.id.bgImage2);
         //ImageView.setMovementMethod(new ScrollingMovementMethod());
 
 
-        Button Bundesliga = findViewById(R.id.Bundeslig);
-        Button SuperCopa = findViewById(R.id.SuperCopa);
-        Button Pokal = findViewById(R.id.Pokal);
-        Button ChampionsL = findViewById(R.id.ChampionsL);
-        Button Encontros = findViewById(R.id.Encontros);
+        Button Bundesliga = this.findViewById(R.id.Bundeslig);
+        Button SuperCopa = this.findViewById(R.id.SuperCopa);
+        Button Pokal = this.findViewById(R.id.Pokal);
+        Button ChampionsL = this.findViewById(R.id.ChampionsL);
+        Button Encontros = this.findViewById(R.id.Encontros);
 
         Bundesliga.setOnClickListener(new View.OnClickListener() {
 
