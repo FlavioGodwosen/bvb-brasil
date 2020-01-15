@@ -1,15 +1,10 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FCE501">
 
-    <HorizontalScrollView
-        android:id="@+id/ScrollView1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:ignore="ScrollViewCount">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -18,25 +13,20 @@
 
             <ImageView
                 android:id="@+id/bgImage4"
-                android:layout_width="410dp"
-                android:layout_height="352dp"
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
                 android:background="#FCE501"
                 android:contentDescription="@string/todo8"
+                android:scaleType="centerInside"
                 android:src="@drawable/bvbface" />
 
-            <ImageView
-                android:id="@+id/bgImage1"
-                android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:background="#FCE501"
-                android:contentDescription="@string/todo15"
-                android:src="@drawable/bvbgladbach" />
+
         </LinearLayout>
-    </HorizontalScrollView>
+
 
 
     <Button
-        android:id="@+id/Bundeslig"
+        android:id="@+id/Bundesliga"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/Pokal"
@@ -45,7 +35,6 @@
         android:layout_marginBottom="17dp"
         android:background="#FCE501"
         android:gravity="center"
-        android:onClick="Bundesliga"
         android:text="@string/campeonato_alem_o"
         android:textColor="#050505"
         android:textColorHighlight="#FCE501"
@@ -62,7 +51,6 @@
         android:layout_marginBottom="17dp"
         android:background="@drawable/ligadaeuropa"
         android:gravity="center"
-        android:onClick="ChampionsL"
         android:text="@string/liga_europeia"
         android:textColor="#F7F5F5"
         android:textColorHighlight="#FCE501"
@@ -79,7 +67,6 @@
         android:layout_marginBottom="17dp"
         android:background="#FCE501"
         android:gravity="center"
-        android:onClick="SuperCopa"
         android:text="@string/super_copa_da_alemanha"
         android:textColor="#050505"
         android:textColorHighlight="#FCE501"
@@ -96,7 +83,6 @@
         android:layout_marginBottom="17dp"
         android:background="#FCE501"
         android:gravity="center"
-        android:onClick="Pokal"
         android:text="@string/copa_da_alemanha"
         android:textColor="#050505"
         android:textColorHighlight="#FCE501"
@@ -113,7 +99,6 @@
         android:layout_marginBottom="17dp"
         android:background="#FCE501"
         android:gravity="center"
-        android:onClick="Encontros"
         android:text="@string/encontros_redes_sociais"
         android:textColor="#050505"
         android:textColorHighlight="#FCE501"
