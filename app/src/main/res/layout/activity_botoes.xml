@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F1E702"
@@ -202,6 +201,185 @@
                 android:text="@string/hofenhein_x_bvb"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:drawablePadding="70dp"
+                android:text="@string/augsburg_x_bvb"
+                android:textAlignment="center"
+                android:textColor="#0A0A0A"
+                android:textStyle="bold" />
+
+            <!--suppress AndroidUnknownAttribute -->
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0A0A0A"
+                android:text="@string/bvb_x_colonia"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F30A0808"
+                android:drawablePadding="70dp"
+                android:text="@string/bvb_x_u_berlin"
+                android:textAlignment="center"
+                android:background="#FCE501"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F30A0808"
+                android:text="@string/bayer_l_x_bvb"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:drawablePadding="70dp"
+                android:text="@string/bvb_x_frankfurt"
+                android:textAlignment="center"
+                android:textColor="#F30A0808"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F30A0808"
+                android:text="@string/w_bremen_x_bvb"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:drawablePadding="70dp"
+                android:text="@string/bvb_x_freiburg"
+                android:textAlignment="center"
+                android:textColor="#F30A0808"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="@string/monchengladbach_x_bvb"
+                android:textAlignment="center"
+                android:textColor="#F7070707"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F30A0808"
+                android:drawablePadding="70dp"
+                android:text="@string/bvb_x_scheisse"
+                android:textAlignment="textStart"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="@string/wolfsburg_x_bvb"
+                android:textAlignment="center"
+                android:textColor="#FC0C0C0C"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F30A0808"
+                android:drawablePadding="70dp"
+                android:text="@string/bvb_x_byern_m"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="@string/paderborn_x_bvb"
+                android:textAlignment="center"
+                android:textColor="#F5090808"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F30A0808"
+                android:drawablePadding="70dp"
+                android:text="@string/bvb_x_herta_b"
+                android:textAlignment="center"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="@string/fortuna_d_x_bvb"
+                android:textAlignment="center"
+                android:textColor="#F30A0808"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F30A0808"
+                android:drawablePadding="70dp"
+                android:text="@string/bvb_x_mains"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCE501"
+                android:text="@string/leipzig_x_bvb"
+                android:textAlignment="center"
+                android:textColor="#F30A0808"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F30A0808"
+                android:drawablePadding="70dp"
+                android:text="@string/bvb_x_hofenhein"
+                android:textColor="#FCE501"
+                android:textStyle="bold" />
+
 
         </LinearLayout>
 
