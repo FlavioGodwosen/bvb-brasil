@@ -114,4 +114,8 @@ Briefing:andrevieira\
     <string name="bvb_x_herta_b" />
     <string name="fortuna_d_x_bvb" />
     <string name="bvb_x_mains" />
+    <string name="Hofenhein_x_bvb">Hofenhein_x_bvb</string>
+    <string name="Augsburg_x_bvb">Augsburg_x_bvb</string>
+    <string name="Bayer_l_x_bvb">Bayer_l_x_bvb</string>
+    <string name="Bvb_x_colonia">Bvb_x_colonia</string>
 </resources>

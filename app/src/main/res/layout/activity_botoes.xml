@@ -198,7 +198,7 @@
                 android:layout_height="wrap_content"
                 android:background="#0A0A0A"
                 android:drawablePadding="70dp"
-                android:text="@string/hofenhein_x_bvb"
+                android:text="@string/Hofenhein_x_bvb"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
 
@@ -208,7 +208,7 @@
                 android:layout_height="wrap_content"
                 android:background="#FCE501"
                 android:drawablePadding="70dp"
-                android:text="@string/augsburg_x_bvb"
+                android:text="@string/Augsburg_x_bvb"
                 android:textAlignment="center"
                 android:textColor="#0A0A0A"
                 android:textStyle="bold" />
@@ -219,7 +219,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#0A0A0A"
-                android:text="@string/bvb_x_colonia"
+                android:text="@string/Bvb_x_colonia"
                 android:textAlignment="center"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
@@ -240,7 +240,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#F30A0808"
-                android:text="@string/bayer_l_x_bvb"
+                android:text="@string/Bayer_l_x_bvb"
                 android:textAlignment="center"
                 android:textColor="#FCE501"
                 android:textStyle="bold" />
