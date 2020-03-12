@@ -18,6 +18,7 @@ public class BotoesActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_botoes);
 
+
         TextView Jogos = findViewById(text);
         ScrollView TelaButton = findViewById(R.id.ScrollView);
         final Button BvBxAugsburg = findViewById(R.id.button);

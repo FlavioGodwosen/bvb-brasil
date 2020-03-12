@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="0dp" android:layout_width="0dp">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape>
             <corners
                 android:radius="14dp" />
             <gradient
+                android:angle="45"
                 android:centerX = "35%"
                 android:centerColor="#0122FC"
                 android:endColor="#080808"
-                android:startColor="#FFF5EE"
+                android:startColor="#0122FC"
                 android:type="linear"
                 />
         </shape>

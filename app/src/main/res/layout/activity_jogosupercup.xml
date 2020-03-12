@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FCE501">
+    android:background="@drawable/fundoprincipal">
+
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="423dp"
-        android:layout_height="229dp"
-        android:background="#FCE501"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-2dp"
+        android:background="@drawable/splashsupercup"
+        android:contentDescription="@string/todo14"
         android:ems="10"
         android:inputType="textPersonName"
-        android:src="@drawable/bvbface"
-        android:textAlignment="center"
-        android:contentDescription="@string/todo14" />
-
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/button22"
@@ -26,9 +27,9 @@
         android:layout_marginStart="100dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="220dp"
-        android:background="#000001"
-        android:text="@string/tabela_copa_da_alemanha"
+        android:layout_marginBottom="341dp"
+        android:background="@drawable/botaopaginainicial"
+        android:text="@string/analise_do_jogo"
         android:textColor="#FCE501"
         android:textStyle="bold" />
 
@@ -40,9 +41,9 @@
         android:layout_marginStart="100dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="300dp"
-        android:background="#000001"
-        android:text="@string/analise_do_jogo"
+        android:layout_marginBottom="256dp"
+        android:background="@drawable/botaopaginainicial"
+        android:text="@string/tabela_copa_da_alemanha"
         android:textColor="#FCE501"
         android:textStyle="bold" />
 

@@ -2,21 +2,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FCE501">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="423dp"
-        android:layout_height="229dp"
-        android:background="#FCE501"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:src="@drawable/bvbface"
-        android:textAlignment="center"
-        android:contentDescription="@string/todo14" />
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/todo14"
+        android:src="@drawable/pokalbvb"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/button20"
@@ -26,10 +23,10 @@
         android:layout_marginStart="100dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="35dp"
-        android:background="#000001"
+        android:layout_marginBottom="158dp"
+        android:background="@drawable/botaopaginainicialyellow"
         android:text="@string/tabela_copa_da_alemanha"
-        android:textColor="#FCE501"
+        android:textColor="#F30A0808"
         android:textStyle="bold" />
 
     <Button
@@ -40,10 +37,10 @@
         android:layout_marginStart="100dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="110dp"
-        android:background="#000001"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/botaopaginainicialyellow"
         android:text="@string/analise_do_jogo"
-        android:textColor="#FCE501"
+        android:textColor="#F30A0808"
         android:textStyle="bold" />
 
 

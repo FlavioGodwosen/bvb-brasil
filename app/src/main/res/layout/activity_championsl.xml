@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#17356C"
+    android:background="@drawable/gradientechampions"
     android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#030330">
+        android:background="@drawable/gradientechampions">
 
 
         <Button
@@ -22,7 +22,7 @@
             android:layout_marginStart="-2dp"
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="119dp"
-            android:background="#052557"
+            android:background="@drawable/championsbotao"
             android:text="@string/tabela_europeia"
             android:textColor="#D9DBDB"
             android:textStyle="bold" />
@@ -37,7 +37,7 @@
             android:layout_marginStart="-2dp"
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="43dp"
-            android:background="#052557"
+            android:background="@drawable/championsbotao"
             android:text="@string/analise_dos_jogos"
             android:textColor="#D9DBDB"
             android:textStyle="bold" />
@@ -45,11 +45,11 @@
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
-            android:layout_height="303dp"
+            android:layout_height="230dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="-3dp"
             android:background="#030330"
-            android:src="@drawable/ligadaeuropa"
+            android:src="@drawable/championsprincipal"
             android:contentDescription="@string/todo12" />
     </RelativeLayout>
 

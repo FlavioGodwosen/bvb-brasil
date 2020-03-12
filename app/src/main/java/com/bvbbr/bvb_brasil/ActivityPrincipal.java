@@ -22,6 +22,8 @@ import static android.content.ContentValues.TAG;
 
 public class ActivityPrincipal extends Activity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,11 +48,14 @@ public class ActivityPrincipal extends Activity {
                 // Failed to read value
                 Log.w(TAG, "Failed to read value.", Objects.requireNonNull(error).toException());
             }
+
+
         });
 
         final ImageView Banners1 = this.findViewById(R.id.bgImage4);
         //final ImageView Banners3 = findViewById(R.id.bgImage2);
         //ImageView.setMovementMethod(new ScrollingMovementMethod());
+
 
 
         Button Bundesliga = this.findViewById(R.id.Bundesliga);
