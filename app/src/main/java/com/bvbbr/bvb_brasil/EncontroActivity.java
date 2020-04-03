@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 public class EncontroActivity extends Activity {
 
@@ -20,7 +19,7 @@ public class EncontroActivity extends Activity {
         Button Twitter = findViewById(R.id.button20);
         Button Instagram = findViewById(R.id.button21);
         Button Youtube = findViewById(R.id.button22);
-        ImageView myImageView = findViewById(R.id.imageView);
+
 
 
 

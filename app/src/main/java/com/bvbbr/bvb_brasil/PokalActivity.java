@@ -6,7 +6,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 public class PokalActivity extends Activity {
 
@@ -15,7 +14,7 @@ public class PokalActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pokal);
 
-        ImageView Reus = findViewById(R.id.imageView7);
+
         Button Pokal = findViewById(R.id.button20);
         Button Analise = findViewById(R.id.button21);
 

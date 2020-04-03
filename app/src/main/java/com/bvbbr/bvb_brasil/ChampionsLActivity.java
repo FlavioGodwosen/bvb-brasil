@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
+
 
 public class ChampionsLActivity extends Activity {
 
@@ -15,7 +15,7 @@ public class ChampionsLActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_championsl);
 
-        ImageView Champions = findViewById(R.id.imageView5);
+
         Button Champions1920 = findViewById(R.id.button18);
         Button Analise = findViewById(R.id.button19);
 

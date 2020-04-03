@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
+
 
 public class JogoSuperCupActivity extends Activity {
 
@@ -16,7 +16,7 @@ public class JogoSuperCupActivity extends Activity {
 
         setContentView(R.layout.activity_jogosupercup);
 
-        ImageView supercup = findViewById(R.id.imageView10);
+
         Button Analise = findViewById(R.id.button22);
         Button Site = findViewById(R.id.button23);
 
