@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 
@@ -51,11 +50,6 @@ public class ActivityPrincipal extends Activity {
 
 
         });
-
-        final ImageView Banners1 = this.findViewById(R.id.bgImage4);
-        //final ImageView Banners3 = findViewById(R.id.bgImage2);
-        //ImageView.setMovementMethod(new ScrollingMovementMethod());
-
 
 
         Button Bundesliga = this.findViewById(R.id.Bundesliga);

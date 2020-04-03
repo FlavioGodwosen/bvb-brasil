@@ -1,0 +1,12 @@
+
+f	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÜŽ
+e	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­âÿH
+k	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä«Ñçûÿÿÿÿ
+f	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þ¡âª
+k	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ªãèùÿÿÿÿ
+k	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¼Õ°ùÿÿÿÿ
+R
+java:S18547"<Remove this useless assignment to local variable "Banners1".(öÜŽ
+C
+java:S14817"-Remove this unused "Banners1" local variable.(öÜŽ
+V	java:S1258"<This block of commented-out lines of code should be removed.(‹”ôµùÿÿÿÿ
