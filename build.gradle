@@ -37,6 +37,6 @@ sonarqube {
         property "sonar.projectKey", "FlavioGodwosen_bvb-brasil"
         property "sonar.organization", "flaviogodwosen"
         property "sonar.host.url", "https://sonarcloud.io"
-        property "sonar.login", "001ca1e0eb4c37631dcfef3f4fb01d512104f5a5"
+        property "sonar.login", "534670abf5022b949420dc71ed14e82b3c7ed21a"
     }
 }
