@@ -31,6 +31,18 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+plugins {
+    id "org.sonarqube" version "3.0"
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "FlavioGodwosen_bvb-brasil"
+        property "sonar.organization", "flaviogodwosen"
+        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.login", "d0f8458bae65bfe2153f5fa9158bdf1a7a4de2e4"
+    }
+}
 
 sonarqube {
     properties {
